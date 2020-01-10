@@ -1,0 +1,4 @@
+IO-bound io密集型
+wait()系统调用：父进程在没事干的时候调用它，把自己移出就绪队列，等待子进程的结束。
+进程终止：调用exit（），返回值给了父进程。资源释放。
+IPC：interprocess communicate
